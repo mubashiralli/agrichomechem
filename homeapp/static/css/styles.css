@@ -10875,6 +10875,11 @@ p {
   padding: 0;
   border-radius: 100%;
 }
+.btn-dark:hover {
+  /* color: #066173; */
+  background-color: #0a98b4;
+
+}
 
 #mainNav {
   padding-top: 1rem;
