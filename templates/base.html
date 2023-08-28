@@ -317,10 +317,50 @@
         <div class="text-center">
           <h2 class="section-heading text-uppercase">About</h2>
           <h3 class="section-subheading text-muted">
-            Welcome to the world with Hydroponics Technology! 
+            A better World with Hydroponics Technology! 
           </h3>
         </div>
         <ul class="timeline">
+          <li>
+            <div class="timeline-image">
+              <img
+                class="rounded-circle img-fluid"
+                src="{% static 'img/about/KhalidJamil.jpeg'%}"
+                alt="..."
+              />
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>Khalid Jamil</h4>
+                <h4 class="subheading">CEO & CFO</h4>
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">
+                  Khalid Jamil, an accomplished entrepreneur and visionary, serves as the Chief Executive Officer (CEO) at AgriHome Chemicals PVT Ltd, a pioneering company specializing in hydroponic technology. With a rich history of successful ventures and investments, Khalid Jamil has consistently demonstrated his remarkable ability to identify innovative opportunities within diverse industries.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-image">
+              <img
+                class="rounded-circle img-fluid"
+                src="{% static 'img/about/Company.jpg'%}"
+                alt="..."
+              />
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>AgriHome Chemicals Pvt LTD.</h4>
+                <h4 class="subheading">March 2021</h4>
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">
+                  Under Khalid Jamil's leadership, AgriHome Chemicals PVT Ltd has emerged as a trailblazing force in the realm of hydroponic technology. The company's establishment signifies his unwavering commitment to harnessing cutting-edge solutions for sustainable agriculture. By leveraging his extensive experience and visionary mindset, Khalid Jamil is spearheading a new era in modern farming practices.
+                </p>
+              </div>
+            </div>
+          </li>
           <li>
             <div class="timeline-image">
               <img
@@ -437,19 +477,21 @@
               <img
                 class="mx-auto rounded-circle"
                 src="{% static 'img/about/timeline4.png'%}"
-                alt="..."
+                alt="Daniyal Khalid"
               />
-              <h4>Daniyal Khalid</h4>
-              <p class="text-muted">CEO & CFO</p>
+              <h4 >Daniyal Khalid</h4>
+              <p class="text-muted" title="">Senior Software Engineer</p>
               <a
                 class="btn btn-dark btn-social mx-2"
-                href="#!"
+                href="https://twitter.com/_daniyalkhalid"
+                target="_blank"
                 aria-label="Daniyal Khalid Twitter Profile"
                 ><i class="fab fa-twitter"></i
               ></a>
               <a
                 class="btn btn-dark btn-social mx-2"
                 href="https://www.facebook.com/daniyalkhalid.dk"
+                target="_blank"
                 aria-label="Daniyal Khalid Facebook Profile"
                 ><i class="fab fa-facebook-f"></i
               ></a>
@@ -457,6 +499,7 @@
                 class="btn btn-dark btn-social mx-2"
                 href="https://www.linkedin.com/in/daniyal-khalid-8670191bb/"
                 aria-label="Daniyal Khalid LinkedIn Profile"
+                target="_blank"
                 ><i class="fab fa-linkedin-in"></i
               ></a>
             </div>
@@ -469,25 +512,26 @@
                 alt="..."
               />
               <h4>Muhammad Usman</h4>
-              <p class="text-muted">Lead Marketer</p>
-              <a
+              <p class="text-muted">Human Resources Manager</p>
+              <!-- <a
                 class="btn btn-dark btn-social mx-2"
                 href="#!"
                 aria-label="Muhammad Usman  Twitter Profile"
                 ><i class="fab fa-twitter"></i
-              ></a>
+              ></a> -->
               <a
                 class="btn btn-dark btn-social mx-2"
-                href="#!"
+                href="https://www.facebook.com/usmankhalid109"
+                target="_blank"
                 aria-label="Muhammad Usman  Facebook Profile"
                 ><i class="fab fa-facebook-f"></i
               ></a>
-              <a
+              <!-- <a
                 class="btn btn-dark btn-social mx-2"
                 href="#!"
                 aria-label="Muhammad Usman  LinkedIn Profile"
                 ><i class="fab fa-linkedin-in"></i
-              ></a>
+              ></a> -->
             </div>
           </div>
           <div class="col-lg-4">
@@ -498,8 +542,8 @@
                 alt="..."
               />
               <h4>Larry Parker</h4>
-              <p class="text-muted">Lead Developer</p>
-              <a
+              <p class="text-muted">Designer</p>
+              <!-- <a
                 class="btn btn-dark btn-social mx-2"
                 href="#!"
                 aria-label="Larry Parker Twitter Profile"
@@ -516,17 +560,14 @@
                 href="#!"
                 aria-label="Larry Parker LinkedIn Profile"
                 ><i class="fab fa-linkedin-in"></i
-              ></a>
+              ></a> -->
             </div>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
             <p class="large text-muted">
-              Guiding the helm of our enterprise is Daniyal Khalid, a true visionary with a knack for transforming ideas into reality. 
-              With an astute business acumen and a keen understanding of market dynamics, Daniyal Khalid not only steers the ship but 
-              also lays the foundation for our sustainable growth. Their leadership ensures that our endeavors are not only groundbreaking 
-              but also economically sound, making [Your Company Name] a driving force in the industry.
+              Our exceptional team stands as the driving force behind our mission to make hydroponics accessible and deliver reliable products to the world. Each member brings a unique blend of expertise, innovation, and passion, contributing to our shared vision of transforming agriculture through advanced technology.
             </p>
           </div>
         </div>
@@ -534,7 +575,7 @@
     </section>
     <!-- Clients-->
     <div class="py-5">
-      <div class="container">
+      <div class="container" style="display: none;">
         <div class="row align-items-center">
           <div class="col-md-3 col-sm-6 my-3">
             <a href="#!"
@@ -696,7 +737,8 @@
           <div class="col-lg-4 my-3 my-lg-0">
             <a
               class="btn btn-dark btn-social mx-2"
-              href="#!"
+              href="https://twitter.com/_daniyalkhalid"
+              target="_blank"
               aria-label="Twitter"
               ><i class="fab fa-twitter"></i
             ></a>
@@ -716,9 +758,9 @@
             ></a>
           </div>
           <div class="col-lg-4 text-lg-end" >
-            <a class="link-dark text-decoration-none me-3" href="#!" style="display:none;">Privacy Policy</a
+            <a class="link-dark text-decoration-none me-3" href="{ur 'home' }" style="display:none;">Privacy Policy</a
             >
-            <a class="link-dark text-decoration-none" href="#!">Powered by: Muhammad Daniyal </a>
+            <a class="link-dark text-decoration-none" target="_blank" href="https://www.linkedin.com/in/daniyal-khalid-8670191bb/">Powered by: Daniyal Khalid </a>
           </div>
         </div>
       </div>
